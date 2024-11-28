@@ -1,0 +1,113 @@
+/* Write your CSS code here */
+.home-route-container {
+  margin: 0px 40px;
+  padding-bottom: 50px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-route-contents {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .home-route-contents {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #1e293b;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+@media screen and (min-width: 767px) {
+  .heading {
+    font-size: 56px;
+    text-align: left;
+  }
+}
+
+.small-device {
+  display: block;
+}
+
+@media screen and (min-width: 767px) {
+  .small-device {
+    display: none;
+  }
+}
+
+.small-device-image {
+  width: 200px;
+  height: 200px;
+}
+
+.large-device {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .large-device {
+    display: block;
+  }
+}
+
+.large-device-image {
+  width: 450px;
+}
+
+@media screen and (min-width: 991px) {
+  .large-device-image {
+    width: 600px;
+  }
+}
+
+.description {
+  text-align: center;
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 767px) {
+  .description {
+    text-align: left;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .button-container {
+    align-self: flex-start;
+  }
+}
+
+.shop-button {
+  font-size: 20px;
+  font-family: 'Roboto';
+  height: 40px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
