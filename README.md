@@ -201,3 +201,26 @@ Use these files to complete the implementation:
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
+
+
+
+Authenticated Credentials:
+
+Username: henry
+password: henry_the_developer
+
+Username: david
+password: the_miller@23
+
+Username: robert
+password: WilsonRobert45
+
+Username: mosh
+password: DevMosh22
+
+Username: rahul
+password: rahul@2021
+
+Username: praneetha
+password: praneetha@2021
